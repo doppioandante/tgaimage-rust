@@ -1,0 +1,11 @@
+[package]
+name = "tga"
+version = "0.1.0"
+authors = ["Enrico Lumetti <enrico.lumetti@gmail.com>"]
+repository = "https://github.com/doppioandante/tgaimage-rust.git"
+license = "ISC"
+keywords = ["tga", "image"]
+description = "Safe wrapper around tgaimage-sys"
+
+[dependencies]
+tgaimage-sys = "0.1.0"
